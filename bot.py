@@ -210,10 +210,6 @@ def run_loki():
         talk("I can chat with you sing song and many thing")
         time.sleep(0.05)
         talk("In version 2 game option translate and much more options will available")
-
-    elif 'help me in homework' in command:
-        print("say 'search <Your search>' or for search in wikipedia say 'wiki <your search>'")
-        
   
         # you can add command in your own
         # if there is no command like that
