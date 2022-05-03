@@ -152,13 +152,13 @@ def run_loki():
     elif 'jokes' in command:
         print("\nHello\n")
 
-    elif 'loki you girl' in command:
+    elif 'you girl' in command:
         print("\nNo\n")
-        talk("No i am a bot")
+        talk("No")
 
-    elif 'you a boy' in command:
+    elif 'you boy' in command:
         print("\nNo\n")
-        talk("I am a bot")
+        talk("No")
 
     elif 'bye' in command:
         while True:
@@ -177,14 +177,11 @@ def run_loki():
             exit()
 
     elif 'are you a singer' in command:
-        print('Some time')
-        talk("I can sing")
-        print("Youtube <Song name> it will open youtube and you can hear your song")
+        talk("Yes I can sing")
+        print("Youtube <Song name>")
 
     elif 'Do you know maths' in command:
-        print("Yes of course i know")
-        talk("yes i know maths")
-        talk("In version one only addition subtraction and multiplication available")
+        print("Yes")
 
         # make a random password
         
@@ -216,7 +213,7 @@ def run_loki():
 
     elif 'help me in homework' in command:
         print("say 'search <Your search>' or for search in wikipedia say 'wiki <your search>'")
-        talk("say search or for search in wikipedia say wiki")
+        
   
         # you can add command in your own
         # if there is no command like that
